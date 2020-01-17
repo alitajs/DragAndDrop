@@ -10,7 +10,7 @@
     "doc:dev": "father-doc dev",
     "doc:build": "father-doc build",
     "build": "father-build",
-    "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish"
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
